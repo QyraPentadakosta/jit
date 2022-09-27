@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'src/core/background/backgroud_services.dart';
+import 'src/core/background/notification.dart';
 import 'src/core/theme/theme.dart';
 import 'src/provider/provider.dart';
 import 'src/route/route.dart';
@@ -9,7 +9,7 @@ import 'src/route/route_obs.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await BackgroundServices().services();
+  await PushNotificationService().registerNotificationListeners();
   runApp(
     MultiProvider(
       providers: providers,

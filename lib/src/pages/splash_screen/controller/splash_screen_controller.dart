@@ -3,7 +3,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 
 import '../../../component/snackbar/i_snackbar.dart';
-import '../../../core/background/backgroud_services.dart';
 import '../../../core/constant/i_constant.dart';
 import '../../../core/constant/i_constant_function.dart';
 import '../../../repository/model/model_status_error.dart';

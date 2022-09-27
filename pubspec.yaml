@@ -39,11 +39,12 @@ dependencies:
   provider: ^6.0.3
   http: ^0.13.5
   shared_preferences: ^2.0.15
-  flutter_background_service: ^2.3.9
+  flutter_background_service: ^2.3.10
   flutter_background_service_android: ^2.5.0
   image_picker: ^0.8.5+3
   mask_text_input_formatter: ^2.4.0
   currency_text_input_formatter: ^2.1.7
+  flutter_local_notifications: 9.2.0
 
 dev_dependencies:
   flutter_test:
